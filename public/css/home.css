@@ -1,0 +1,237 @@
+p{
+
+  font-size: 1rem;
+  }
+.nav-b{
+  position: relative;
+    left: 29rem;
+    top: 1rem;
+  display: inline-block;
+
+  }
+
+  .itme{
+    color: black;
+    font-size: 1.2rem;
+    padding-right: 2.2rem;
+    text-decoration: none;
+  }
+.header-brand{
+  position: relative;
+  top: 1rem;
+  left: 1.2rem;
+  max-width: 15rem;
+  cursor: pointer;
+}
+.sup{
+  margin-top: 1.9rem;
+  max-width: 1.6rem;
+  position:relative;
+  left:63rem;
+  cursor: pointer;
+}
+.bar{
+  display: inline-block;
+}
+.spn{
+  position:relative;
+  left: 64rem;
+  top: 1rem;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+.cart{
+  max-width: 1.9rem;
+  margin-top: 1.7rem;
+  position:relative;
+  left: 66rem;
+  cursor: pointer;
+}
+.spn1{
+  position:relative;
+  left: 67rem;
+  top: 1rem;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#banner{
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.banner-img{
+  max-width: 100%;
+}
+
+/* promo */
+
+#promo{
+
+  margin-top: 1.2rem;
+}
+
+.card{
+  max-width: 18rem;
+}
+
+.ctc ul li{
+  display: inline;
+}
+.citem{
+  max-width: 80%;
+
+}
+
+.ctc{
+  width: 65%;
+  position: absolute;
+  top: 52rem;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.ctul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bn1{
+  width: 65%;
+  height: 100rem;
+  position: absolute;
+  top: 116rem;
+  left: 52%;
+  transform: translate(-50%,-50%);
+
+}
+.bitem{
+  max-width: 90.5%;
+  max-height: 50%;
+}
+
+.ctc1 ul li{
+  display: inline;
+}
+.ctc1{
+  width: 65%;
+  position: absolute;
+  top: 110rem;
+  left: 49.8%;
+  transform: translate(-50%,-50%);
+}
+.ctul1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.citem1{
+  max-width: 88%;
+}
+
+.bn2{
+  width: 65%;
+  /* height: 100rem; */
+  position: absolute;
+  top: 142rem;
+  left: 52%;
+  transform: translate(-50%,-50%);
+}
+.bitem1{
+  max-width: 90.5%;
+}
+
+
+.pos{
+  position: absolute;
+  left: 6.8rem;
+  bottom: 12rem;
+  color: black;
+
+}
+.pos1{
+  position: absolute;
+  left: 26rem;
+  bottom: 12rem;
+  color: black;
+
+}
+.pos2{
+  position: absolute;
+  left: 47rem;
+  bottom: 12rem;
+  color: black;
+
+}
+.posb1{
+  position: absolute;
+  left: 23rem;
+  bottom: 87rem;
+  color: black;
+}
+.pos3{
+  position: absolute;
+  left: 14rem;
+  bottom: 19rem;
+  color: black;
+}
+.pos4{
+  position: absolute;
+  left: 42rem;
+  bottom: 19rem;
+  color: black;
+}
+.posb2{
+  position: absolute;
+  left: 24rem;
+  bottom: 9rem;
+  color: black;
+}
+.hide{
+  display: none;
+}
+.hv:hover + .hide{
+  display: block;
+}
+.hov:hover + .hv{
+  opacity: 0.6;
+}
+.hv{
+  opacity: 1;
+    cursor: pointer;
+}
+.hv:hover{
+  opacity: 0.6;
+}
+/* newsletter */
+.newsletter{
+  max-width: 59.2%;
+  height: 9rem;
+  background-color: red;
+  position: relative;
+  top: 117rem;
+  left:18.3rem;
+
+}
+.ml{
+  max-width: 6%;
+  position: relative;
+  left: 10rem;
+  top: 3rem;
+}
+.newsletter input{
+  position: relative;
+  left: 35rem;
+  bottom: 2.5rem;
+}
+h5{
+  position: relative;
+  left: 15rem;
+  font-size: 2rem;
+}
+.newsletter button{
+  position: relative;
+  left: 35rem;
+  bottom: 2.5rem;
+}
