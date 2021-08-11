@@ -87,7 +87,7 @@ p{
 .ctc{
   width: 65%;
   position: absolute;
-  top: 52rem;
+  top: 55rem;
   left: 50%;
   transform: translate(-50%,-50%);
 }
@@ -101,7 +101,7 @@ p{
   width: 65%;
   height: 100rem;
   position: absolute;
-  top: 116rem;
+  top: 119rem;
   left: 52%;
   transform: translate(-50%,-50%);
 
@@ -117,7 +117,7 @@ p{
 .ctc1{
   width: 65%;
   position: absolute;
-  top: 110rem;
+  top: 113rem;
   left: 49.8%;
   transform: translate(-50%,-50%);
 }
@@ -134,7 +134,7 @@ p{
   width: 65%;
   /* height: 100rem; */
   position: absolute;
-  top: 142rem;
+  top: 145rem;
   left: 52%;
   transform: translate(-50%,-50%);
 }
