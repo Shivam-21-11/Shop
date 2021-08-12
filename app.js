@@ -67,6 +67,6 @@ app.post('/mail',function(req,res){
   console.log(mail);
   res.redirect('/home');
 });
-app.listen(3000,function(){
+app.listen(process.env.PORT || 3000,function(){
   console.log("Listening at port 3000")
 });
