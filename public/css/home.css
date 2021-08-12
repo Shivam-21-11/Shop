@@ -2,6 +2,12 @@ p{
 
   font-size: 1rem;
   }
+  .navbb{
+    position: relative;
+    background-color: white;
+    height: 8.375rem;
+    max-width: 100%;
+  }
 .nav-b{
   position: relative;
     left: 29rem;
@@ -9,7 +15,13 @@ p{
   display: inline-block;
 
   }
-
+#ttbar{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  margin-bottom: 1.2rem;
+  z-index: 1;
+}
   .itme{
     color: black;
     font-size: 1.2rem;
@@ -32,6 +44,10 @@ p{
 }
 .bar{
   display: inline-block;
+}
+.lgmg{
+  position: absolute;
+  top: 6rem;
 }
 .spn{
   position:relative;
@@ -58,8 +74,9 @@ p{
 }
 
 #banner{
-  margin-top: 2rem;
+  margin-top: 8rem;
   cursor: pointer;
+  position: absolute;
 }
 .banner-img{
   max-width: 100%;
@@ -208,30 +225,31 @@ p{
 .newsletter{
   max-width: 59.2%;
   height: 9rem;
-  background-color: red;
+  background-color: #c4a173;
   position: relative;
-  top: 117rem;
-  left:18.3rem;
+  top: 157rem;
+  left:18.4rem;
 
 }
 .ml{
   max-width: 6%;
   position: relative;
-  left: 10rem;
+  left: 8rem;
   top: 3rem;
 }
 .newsletter input{
-  position: relative;
-  left: 35rem;
-  bottom: 2.5rem;
+  position: absolute;
+  left: 33rem;
+  bottom: 3.4rem;
 }
 h5{
   position: relative;
-  left: 15rem;
+  left: 13rem;
   font-size: 2rem;
+
 }
 .newsletter button{
-  position: relative;
-  left: 35rem;
-  bottom: 2.5rem;
+  position: absolute;
+  left: 46rem;
+  bottom: 3.4rem;
 }
