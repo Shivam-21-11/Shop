@@ -35,6 +35,30 @@ app.get('/whats-new',function(req,res){
   let name = kn[0]+" "+kn[1];
   res.render('cview',{pName:name.toUpperCase()});
 });
+
+
+app.get("/women",function(req,res){
+  let name = req.path.split("/");
+  res.render('cview',{pName:name[1].toUpperCase()});
+});
+app.get("/dresses",function(req,res){
+  let name = req.path.split("/");
+  res.render('cview',{pName:name[1].toUpperCase()});
+});
+app.get("/classic",function(req,res){
+  let name = req.path.split("/");
+  res.render('cview',{pName:name[1].toUpperCase()});
+});
+app.get("/Curve",function(req,res){
+  let name = req.path.split("/");
+  res.render('cview',{pName:name[1].toUpperCase()});
+});
+app.get("/campaign",function(req,res){
+  let name = req.path.split("/");
+  res.render('cview',{pName:name[1].toUpperCase()});
+});
+
+
 app.listen(3000,function(){
   console.log("Listening at port 3000")
 });
