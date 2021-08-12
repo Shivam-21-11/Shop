@@ -122,3 +122,122 @@ aside{
   text-decoration: none;
 }
 /* /////////////////////////////////////////////////aside//////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////main//////////////////////////////////////////////////////////////////////////// */
+.cd{
+  width: 18rem;
+  border: none;
+}
+.products{
+  padding-top: 1.875rem;
+}
+
+
+
+
+
+
+
+/* /////////////////////////////////////////////////main//////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////footer//////////////////////////////////////////////////////////////////////////// */
+
+.ftr {
+  width: 100%;
+  height: 25rem;
+  background-color: black;
+  position: relative;
+  top: 160rem;
+}
+
+.imgf {
+  position: absolute;
+  top: 5rem;
+  left: 16rem;
+}
+.social{
+  color: white;
+  display: inline-block;
+  position: absolute;
+  top: 7rem;
+  left: 69.8rem;
+
+}
+.social a i{
+  padding-left: 1.5rem;
+
+}
+.social a{
+  color: white;
+}
+.social a:hover{
+  color: #a8a4a4;
+}
+.fus h6{
+  color: white;
+}
+.fus{
+  position: absolute;
+  top: 4rem;
+  left: 71.4rem;
+}
+.cat h6{
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+.cat ul {
+  list-style-type: none;
+}
+.cat ul li{
+  color: white;
+  padding-bottom: 0.3rem;
+}
+.cat ul li a:hover{
+  color: #a8a4a4;
+}
+.cat ul li:first-child{
+  margin-top: 1.2rem;
+}
+.cat{
+  position: absolute;
+  top: 4rem;
+  left: 55rem;
+}
+.cat ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.inf h6{
+  color: white;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+.inf ul li{
+  list-style-type: none;
+}
+.inf ul li a{
+  color: white;
+  text-decoration: none;
+}
+.inf{
+  position: absolute;
+  top: 4rem;
+  left: 40rem;
+}
+.inf ul li{
+  margin-bottom: 0.3rem;
+}
+.inf ul li a:hover{
+  color: #a8a4a4;
+}
+.cr h5{
+  color: white;
+  font-size: 1rem;
+}
+.cr{
+  position: absolute;
+  top: 23rem;
+  left: 20rem;
+}
+/* /////////////////////////////////////////////////footer//////////////////////////////////////////////////////////////////////////// */

@@ -29,7 +29,11 @@ app.get('/home',function(req,res){
 
 
 app.get('/whats-new',function(req,res){
-  res.render('cview.ejs');
+
+  const pn = req.path.split('/');
+  const kn = pn[1].split('-');
+  let name = kn[0]+" "+kn[1];
+  res.render('cview',{pName:name.toUpperCase()});
 });
 app.listen(3000,function(){
   console.log("Listening at port 3000")
