@@ -8,7 +8,7 @@ app.set('view engine','ejs');
 app.use(express.static('public'));
 
 app.get('/',function(req, res){
-  res.sendFile(__dirname+"/index.html")
+  res.render('home');
 });
 
 app.post('/home',function(req,res){
@@ -23,9 +23,9 @@ app.post('/home',function(req,res){
     }
 });
 
-app.get('/home',function(req,res){
-  res.render('home');
-});
+// app.get('/home',function(req,res){
+//   res.render('home');
+// });
 
 
 app.get('/whats-new',function(req,res){
