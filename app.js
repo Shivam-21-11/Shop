@@ -62,6 +62,11 @@ app.get("/signup",function(req,res){
   res.render("sigup");
 });
 
+app.post('/mail',function(req,res){
+  let mail = req.body.mail;
+  console.log(mail);
+  res.redirect('/home');
+});
 app.listen(3000,function(){
   console.log("Listening at port 3000")
 });
