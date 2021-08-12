@@ -26,6 +26,11 @@ app.post('/home',function(req,res){
 app.get('/home',function(req,res){
   res.render('home');
 });
+
+
+app.get('/whats-new',function(req,res){
+  res.render('cview.ejs');
+});
 app.listen(3000,function(){
   console.log("Listening at port 3000")
 });

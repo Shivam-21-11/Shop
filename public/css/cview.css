@@ -1,0 +1,118 @@
+/* /////////////////////////////////////////////////////headernavbarcss////////////////////////////////////////////////////////////// */
+.navbb {
+  position: relative;
+  background-color: white;
+  height: 8.375rem;
+  max-width: 100%;
+}
+
+.nav-b {
+  position: relative;
+  left: 29rem;
+  top: 1rem;
+  display: inline-block;
+}
+
+#ttbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  margin-bottom: 1.2rem;
+  z-index: 1;
+}
+.itme {
+  color: black;
+  font-size: 1.2rem;
+  padding-right: 2.2rem;
+  text-decoration: none;
+}
+
+.header-brand {
+  position: relative;
+  top: 1rem;
+  left: 1.2rem;
+  max-width: 15rem;
+  cursor: pointer;
+}
+
+.sup {
+  margin-top: 1.9rem;
+  max-width: 1.6rem;
+  position: relative;
+  left: 63rem;
+  cursor: pointer;
+}
+
+.bar {
+  display: inline-block;
+}
+.lgmg {
+  position: absolute;
+  top: 6rem;
+}
+.spn {
+  position: relative;
+  left: 64rem;
+  top: 1rem;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cart {
+  max-width: 1.9rem;
+  margin-top: 1.7rem;
+  position: relative;
+  left: 66rem;
+  cursor: pointer;
+}
+
+.spn1 {
+  position: relative;
+  left: 67rem;
+  top: 1rem;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* /////////////////////////////////////////////////////headernavbarcss////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////cviewmiddle//////////////////////////////////////////////////////////////////////////// */
+.container{
+  width: 100%;
+  margin-top: 10.938rem;
+  position: relative;
+
+}
+.container h1{
+  font-size:1.5rem;
+}
+/* /////////////////////////////////////////////////aside//////////////////////////////////////////////////////////////////////////// */
+span{
+  margin-left: 0.5rem;
+}
+aside{
+  width:20rem;
+  position: relative;
+}
+
+.siner{
+  margin-top: 1.6rem;
+  width: 50%;
+}
+.r2{
+  margin-top: 1rem;
+}
+.ps{
+  padding-left: 1.438rem;
+}
+
+.size h5{
+  margin-top: 2.375rem;
+}
+
+.ratng h5{
+  margin-top: 3rem;
+}
+
+
+/* /////////////////////////////////////////////////aside//////////////////////////////////////////////////////////////////////////// */
