@@ -58,6 +58,9 @@ app.get("/campaign",function(req,res){
   res.render('cview',{pName:name[1].toUpperCase()});
 });
 
+app.get("/signup",function(req,res){
+  res.render("sigup");
+});
 
 app.listen(3000,function(){
   console.log("Listening at port 3000")
