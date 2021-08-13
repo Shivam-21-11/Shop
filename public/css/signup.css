@@ -1,0 +1,197 @@
+/* /////////////////////////////////////////////////////headernavbarcss////////////////////////////////////////////////////////////// */
+.navbb {
+  position: relative;
+  background-color: white;
+  height: 8.375rem;
+  max-width: 100%;
+}
+
+.nav-b {
+  position: relative;
+  left: 29rem;
+  top: 1rem;
+  display: inline-block;
+}
+
+#ttbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  margin-bottom: 1.2rem;
+  z-index: 1;
+}
+.itme {
+  color: black;
+  font-size: 1.2rem;
+  padding-right: 2.2rem;
+  text-decoration: none;
+}
+
+.header-brand {
+  position: relative;
+  top: 1rem;
+  left: 1.2rem;
+  max-width: 15rem;
+  cursor: pointer;
+}
+
+.sup {
+  margin-top: 1.9rem;
+  max-width: 1.6rem;
+  position: relative;
+  left: 63rem;
+  cursor: pointer;
+}
+
+.bar {
+  display: inline-block;
+}
+.lgmg {
+  position: absolute;
+  top: 6rem;
+}
+.spn {
+  position: absolute;
+  left: 78rem;
+  top: 3rem;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cart {
+  max-width: 1.9rem;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  left: 68rem;
+  cursor: pointer;
+}
+
+.spn1 {
+  position: absolute;
+  left: 85rem;
+  top: 3rem;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* /////////////////////////////////////////////////////headernavbarcss////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////footer//////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////footer////////////////////////////////////////////////////////////// */
+.ftr{
+  position: absolute;
+  bottom: 0;
+  top: 44.75rem;
+  left: 0;
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 27rem;
+
+}
+.imgf {
+  position: absolute;
+  top: 5rem;
+  left: 16rem;
+}
+
+.social{
+  color: white;
+  display: inline-block;
+  position: absolute;
+  top: 7rem;
+  left: 69.8rem;
+
+}
+.social a i{
+  padding-left: 1.5rem;
+
+}
+.social a{
+  color: white;
+}
+.social a:hover{
+  color: #a8a4a4;
+}
+
+.fus h6{
+  color: white;
+}
+.fus{
+  position: absolute;
+  top: 4rem;
+  left: 71.4rem;
+}
+.cat h6{
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+.cat ul {
+  list-style-type: none;
+}
+.cat ul li{
+  color: white;
+  padding-bottom: 0.3rem;
+}
+.cat ul li a:hover{
+  color: #a8a4a4;
+}
+.cat ul li:first-child{
+  margin-top: 1.2rem;
+}
+.cat{
+  position: absolute;
+  top: 4rem;
+  left: 55rem;
+}
+.cat ul li a{
+  color: white;
+  text-decoration: none;
+}
+.inf h6{
+  color: white;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+.inf ul li{
+  list-style-type: none;
+}
+.inf ul li a{
+  color: white;
+  text-decoration: none;
+}
+.inf{
+  position: absolute;
+  top: 4rem;
+  left: 40rem;
+}
+.inf ul li{
+  margin-bottom: 0.3rem;
+}
+.inf ul li a:hover{
+  color: #a8a4a4;
+}
+.cr h5{
+  color: white;
+  font-size: 1rem;
+}
+.cr{
+  position: absolute;
+  top: 23rem;
+  left: 33rem;
+  height:1.7rem;
+}
+
+/* /////////////////////////////////////////////////footer//////////////////////////////////////////////////////////////////////////// */
+/*//////////////////////////////////mainbody///////////////////////////////////////////////////////////////////////////////////////////*/
+body{
+  margin-top: 14rem;
+}
+.container{
+    max-width: 90%;
+    position:relative;
+    left: 5rem;
+}
