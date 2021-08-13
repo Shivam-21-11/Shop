@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>SMart Login</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/signin.css">
+  <!-- <link rel="stylesheet" href="css/temps/footer.css"> -->
+
+
+
+<%- include("navbar")-%>
+</head>
+<body>
+<div class="container">
+  <div class="cd">
+    <div class="title">
+      <h1>Sign in</h1>
+    </div>
+    <div class="frm">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <form class="fom" action="/login" method="post">
+            <label for="">EMAIL ADDRESS :</label>
+            <br>
+            <input class="form-control" type="email" name="EMAIL" value="">
+            <br>
+            <label for="">PASSWORD :</label>
+            <br>
+            <input class="form-control" type="password" name="" value="">
+            <br>
+            <button class="btn btn-outline-dark btn-lg btnl" type="submit" name="">Login</button><a href="#">Forgot Password?</a>
+          </form>
+        </div>
+        <div class="col-lg-6 col-md-12 ">
+          <div class="msg">
+            <div class="tnc">
+                <h1>NEW CUSTOMER ?</h1>
+            </div>
+              <div class="itml">
+                <h5>Create an account with us and you'll be able to:</h5>
+                <div class="lst">
+
+                  <ul>
+                    <li>Check Out Faster.</li>
+                    <li>Save Multiple Shipping Addresses.</li>
+                    <li>Access Order History.</li>
+                    <li>Track New Order.</li>
+                    <li>Save Item To Your Wish List.</li>
+                  </ul>
+
+                </div>
+                <a href="#"><button class="btt btn btn-dark btn-lg">Create Account</button></a>
+              </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+</body>
+<footer></footer>
+</html>

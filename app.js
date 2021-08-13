@@ -11,6 +11,10 @@ app.get('/',function(req, res){
   res.render('home');
 });
 
+app.get('/home',function(req,res){
+  res.render('home');
+});
+
 app.post('/home',function(req,res){
   let mail = req.body.email;
   let pass = req.body.password;
@@ -61,6 +65,12 @@ app.get("/campaign",function(req,res){
 app.get("/signup",function(req,res){
   res.render("sigup");
 });
+
+app.get("/login",function(req,res){
+  // res.sendFile(__dirname+"/index.html");
+  res.render('login');
+});
+
 
 app.post('/mail',function(req,res){
   let mail = req.body.mail;
