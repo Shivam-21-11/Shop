@@ -70,6 +70,38 @@ p {
   font-size: 36px;
   margin-left: 50px;
 }
+@media only screen and (max-width:950px){
+  .nav-lf{
+    margin-top: 10%;
+    margin-left: 40%;
+  }
+}
+@media only screen and (max-width:992px){
+  .nav-lf{
+    margin-top: 8%;
+    margin-left: 47%;
+  }
+}
+@media only screen and (max-width:750px){
+  .nav-lf{
+    margin-top: 10%;
+    margin-left: 32%;
+  }
+}
+@media only screen and (max-width:690px){
+  .nav-lf{
+    margin-top: 12%;
+    margin-left: 30%;
+  }
+}
+@media only screen and (max-width:635px){
+  .nav-lf{
+    display: none;
+  }
+}
+.fas{
+  margin-left: 0.563rem;
+}
 /*///////////////////exp////////////////////*/
 .navbb {
   position: relative;
