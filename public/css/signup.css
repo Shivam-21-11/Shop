@@ -51,9 +51,9 @@
   top: 6rem;
 }
 .spn {
-  position: absolute;
-  left: 78rem;
-  top: 3rem;
+  position: relative;
+  left: 64rem;
+  top: 1rem;
   color: inherit;
   cursor: pointer;
   text-decoration: none;
@@ -61,17 +61,19 @@
 
 .cart {
   max-width: 1.9rem;
+  margin-top: 1.7rem;
+  position: relative;
+  left: 66rem;
+  cursor: pointer;
   width: 25px;
   height: 25px;
-  position: relative;
-  left: 68rem;
-  cursor: pointer;
+
 }
 
 .spn1 {
-  position: absolute;
-  left: 85rem;
-  top: 3rem;
+  position: relative;
+  left: 67rem;
+  top: 1rem;
   color: inherit;
   cursor: pointer;
   text-decoration: none;
@@ -82,12 +84,12 @@
 .ftr{
   position: absolute;
   bottom: 0;
-  top: 44.75rem;
+  top: 85rem;
   left: 0;
   display: flex;
   background-color: black;
   width: 100%;
-  height: 27rem;
+  height: 25rem;
 
 }
 .imgf {
@@ -193,5 +195,28 @@ body{
 .container{
     max-width: 90%;
     position:relative;
-    left: 5rem;
+
+}
+/*///////////////////////////////////////////form body//////////////////////////////////////////////////////////////////////////*/
+.wdt{
+  width:28.125rem;
+}
+.pd{
+  padding-left: 13.875rem;
+}
+.btt{
+  width: 15rem;
+}
+.sbn{
+  padding-left: 33.75rem;
+  padding-top: 3.313rem;
+}
+.ipf{
+  padding-top: 4rem;
+}
+.row{
+  padding-bottom: 1.6rem;
+}
+label{
+  padding-bottom: 0.6rem;
 }

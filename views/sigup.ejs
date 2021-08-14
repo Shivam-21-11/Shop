@@ -10,20 +10,125 @@
     <%- include("navbar") -%>
   </head>
   <body>
+
     <div class="container">
       <div class="title">
-        <h1>Sign up</h1>
+        <h1>NEW ACCOUNT</h1>
       </div>
       <div class="ipf">
-        <form class="" action="index.html" method="post">
+        <form class="forrm" action="index.html" method="post">
+
+
+
           <div class="row">
-            <div class="col-lg-6 col-md-12 col-md-12">
+            <div class="col-lg-6 col-md-12 col-md-12 pd">
               <!-- signupdetailside1 -->
+              <label for="">First Name :</label>
+              <br>
+              <input class="form-control wdt" type="text" name="fname" value="" placeholder="First Name">
             </div>
             <div class="col-lg-6 col-md-12 col-md-12">
               <!-- signupdetailside1 -->
+              <label for="">Last Name :</label>
+              <br>
+              <input class="form-control wdt" type="text" name="lname" value="" placeholder="Last Name">
             </div>
-          </div>
+            </div>
+
+              <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 pd">
+                  <label for="">Email :</label>
+                  <br>
+                  <input class="form-control wdt" type="text" name="email" value="" placeholder="example@mail.com">
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <label for="">Password :</label>
+                  <br>
+                  <input class="form-control wdt" type="password" name="pass" value="" placeholder="Password">
+                </div>
+              </div>
+
+
+              <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 pd">
+                  <label for="">Confirm Password :</label>
+                  <br>
+                  <input class="form-control wdt" type="text" name="cpass" value="" placeholder="Confirm Password">
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <label for="">Phone Number :</label>
+                  <br>
+                  <input class="form-control wdt" type="number" name="phone" value="" placeholder="Phone">
+                </div>
+              </div>
+
+
+
+              <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 pd">
+                  <label for="">Address Line 1 :</label>
+                  <br>
+                  <input class="form-control wdt" type="text" name="add1" value="" placeholder="">
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <label for="">Address Line 2 :</label>
+                  <br>
+                  <input class="form-control wdt" type="text" name="add2" value="" placeholder="">
+                </div>
+              </div>
+
+
+              <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 pd">
+                  <label for="">City :</label>
+                  <br>
+                  <input class="form-control wdt" type="text" name="ct" value="" placeholder="City">
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <label for="">Country:</label>
+                  <br>
+                  <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle wdt" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Country
+                    </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">India</a></li>
+                  <li><a class="dropdown-item" href="#">Australia</a></li>
+                  <li><a class="dropdown-item" href="#">USA</a></li>
+                  </ul>
+                  </div>
+
+                </div>
+              </div>
+
+
+              <div class="row">
+
+                <div class="col-lg-6 col-md-12 col-sm-12 pd">
+                  <label for="">State:</label>
+                  <br>
+                  <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle wdt" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              States
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">states</a></li>
+              <li><a class="dropdown-item" href="#">states</a></li>
+              <li><a class="dropdown-item" href="#">states</a></li>
+              </ul>
+              </div>
+
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <label for="">Zip Code :</label>
+                  <br>
+                  <input class="form-control wdt" type="number" name="zipc" value="" placeholder="Zip Code">
+                </div>
+              </div>
+                <div class="sbn">
+                    <button class="btt btn btn-dark btn-lg" type="submit" name="button">Sign up</button>
+                </div>
+
         </form>
 
       </div>
@@ -31,7 +136,7 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
   </body>
-  <footer>
+  <footer >
     <%- include("footer") -%>
   </footer>
 </html>
