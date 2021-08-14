@@ -37,6 +37,26 @@ app.get('/whats-new',function(req,res){
   res.render('cview',{pName:name.toUpperCase()});
 });
 
+app.get('/shop-all',function(req,res){
+
+  const pn = req.path.split('/');
+  const kn = pn[1].split('-');
+  let name = kn[0]+" "+kn[1];
+  res.render('cview',{pName:name.toUpperCase()});
+});
+
+
+app.get('/shop-younger-than-sun',function(req,res){
+
+  let pn = req.path.split('/');
+
+  pn = pn[1];
+  pn = pn.split('-');
+  let name = pn[0]+" "+pn[1]+" "+pn[2]+" "+pn[3];
+  res.render('cview',{pName:name.toUpperCase()});
+});
+
+
 
 app.get("/women",function(req,res){
   let name = req.path.split("/");
@@ -50,7 +70,7 @@ app.get("/classic",function(req,res){
   let name = req.path.split("/");
   res.render('cview',{pName:name[1].toUpperCase()});
 });
-app.get("/Curve",function(req,res){
+app.get("/curve",function(req,res){
   let name = req.path.split("/");
   res.render('cview',{pName:name[1].toUpperCase()});
 });
@@ -58,13 +78,26 @@ app.get("/campaign",function(req,res){
   let name = req.path.split("/");
   res.render('cview',{pName:name[1].toUpperCase()});
 });
+app.get("/casual",function(req,res){
+  let name = req.path.split("/");
+  res.render('cview',{pName:name[1].toUpperCase()});
+});
+
+app.get("/denim",function(req,res){
+  let name = req.path.split("/");
+  res.render('cview',{pName:name[1].toUpperCase()});
+});
+
+
+
+
+
 
 app.get("/signup",function(req,res){
   res.render("sigup");
 });
 
 app.get("/login",function(req,res){
-  // res.sendFile(__dirname+"/index.html");
   res.render('login');
 });
 
