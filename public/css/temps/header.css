@@ -1,4 +1,106 @@
-/* /////////////////////////////////////////////////////headernavbarcss////////////////////////////////////////////////////////////// */
+/*///////////////////////////////////////////////////////////////////////navbar////////////////////////////////////////////////////*/
+/*///////////////////exp////////////////////*/
+
+.fst{
+  height:6rem;
+}
+
+.hditm{
+  display: inline-block;
+  margin-left: 28%;
+
+}
+.hd{
+  display: none;
+}
+.nav-lf{
+  display: inline-block;
+  /* margin-left: 30rem;
+  margin-top: 2.125rem; */
+  margin-top: 5%;
+  margin-left: 55%;
+}
+.nav-lf a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding-left: 0.8rem;
+}
+.nav-lf a:hover{
+  color: #b5b5b5;
+}
+.ms{
+  height:6rem;
+}
+
+.sidenav{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 7.75rem;
+}
+.sidenav a{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1.563rem;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover{
+  color: #b5b5b5;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.navc{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+@media only screen and (max-width:950px){
+  .nav-lf{
+    margin-top: 10%;
+    margin-left: 40%;
+  }
+}
+@media only screen and (max-width:992px){
+  .nav-lf{
+    margin-top: 8%;
+    margin-left: 47%;
+  }
+}
+@media only screen and (max-width:750px){
+  .nav-lf{
+    margin-top: 10%;
+    margin-left: 32%;
+  }
+}
+@media only screen and (max-width:690px){
+  .nav-lf{
+    margin-top: 12%;
+    margin-left: 30%;
+  }
+}
+@media only screen and (max-width:635px){
+  .nav-lf{
+    display: none;
+  }
+}
+.fas{
+  margin-left: 0.563rem;
+}
+/*///////////////////exp////////////////////*/
 .navbb {
   position: relative;
   background-color: white;
@@ -20,6 +122,7 @@
   margin-bottom: 1.2rem;
   z-index: 1;
 }
+
 .itme {
   color: black;
   font-size: 1.2rem;
@@ -35,44 +138,9 @@
   cursor: pointer;
 }
 
-.sup {
-  margin-top: 1.9rem;
-  max-width: 1.6rem;
-  position: relative;
-  left: 63rem;
-  cursor: pointer;
+.imgh{
+  height: 1.8rem;
+  width: 1.8rem;
 }
 
-.bar {
-  display: inline-block;
-}
-.lgmg {
-  position: absolute;
-  top: 6rem;
-}
-.spn {
-  position: relative;
-  left: 64rem;
-  top: 1rem;
-  color: inherit;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.cart {
-  max-width: 1.9rem;
-  margin-top: 1.7rem;
-  position: relative;
-  left: 66rem;
-  cursor: pointer;
-}
-
-.spn1 {
-  position: relative;
-  left: 67rem;
-  top: 1rem;
-  color: inherit;
-  cursor: pointer;
-  text-decoration: none;
-}
-/* /////////////////////////////////////////////////////headernavbarcss////////////////////////////////////////////////////////////// */
+/*///////////////////////////////////////////////////////////////////////navbar////////////////////////////////////////////////////*/
