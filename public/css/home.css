@@ -1,6 +1,9 @@
 p {
   font-size: 1rem;
 }
+body{
+  margin-top: 8.8rem;
+}
 /*///////////////////////////////////////////////////////////////////////navbar////////////////////////////////////////////////////*/
 /*///////////////////exp////////////////////*/
 
@@ -122,7 +125,7 @@ p {
   position: fixed;
   width: 100%;
   top: 0;
-  margin-bottom: 1.2rem;
+
   z-index: 1;
 }
 
@@ -147,219 +150,170 @@ p {
 }
 
 /*///////////////////////////////////////////////////////////////////////navbar////////////////////////////////////////////////////*/
-/* .lgmg {
-  position: absolute;
-  top: 6rem;
-} */
-
-
-
-
-
-
+/*///////////////////////////////////////////////////////////////////////banner////////////////////////////////////////////////////*/
 
 #banner {
-  margin-top: 8rem;
+
   cursor: pointer;
-  position: absolute;
+
 }
 
 .banner-img {
   max-width: 100%;
 }
+/*///////////////////////////////////////////////////////////////////////banner////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////promo////////////////////////////////////////////////////*/
+.promo {
+  position: relative;
+  margin-left: 9%;
+  padding-top: 4%;
+  display: inline-block;
 
-/* promo */
-#promo {
-  margin-top: 1.2rem;
 }
-
-.card {
-  max-width: 18rem;
-}
-
-.ctc ul li {
-  display: inline;
-}
-
-.citem {
-  max-width: 80%;
-}
-
-.ctc {
-  width: 65%;
+.ttag{
+  max-width: 35%;
   position: absolute;
-  top: 55rem;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+}
+.pos1{
+  top:40%;
+  left:25%;
+}
+.pos2{
+  top:40%;
+  left:23%;
+}
+.pos3{
+  top:40%;
+  left:25%;
+}
+.pos4{
+  top:46%;
+  left:42%;
+}
+.pos5{
+  top:52%;
+  left:36%;
+}
+.pos6{
+  top:52%;
+  left:33%;
+}
+.pos7{
+  top:43%;
+  left:38%;
+}
+.colil{
+  display: inline-block;
+  position: relative;
+
+}
+.row-pad{
+  position: relative;
+  padding-bottom: 3.375rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+.imgcard{
+  max-width: 72%;
+  opacity: 1;
+}
+.imgcard-2{
+  max-width: 81.5%;
+  opacity: 1;
 }
 
-.ctul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.img-sm-ban{
+  max-width: 90.7%;
+  opacity: 1;
 }
 
-.bn1 {
-  width: 65%;
-  height: 100rem;
-  position: absolute;
-  top: 119rem;
-  left: 52%;
-  transform: translate(-50%, -50%);
+.hide{
+  display:none;
 }
+.imgcard:hover {
+  opacity: 0.4;
 
-.bitem {
-  max-width: 90.5%;
-  max-height: 50%;
 }
-
-.ctc1 ul li {
-  display: inline;
+.imgcard-2:hover{
+  opacity: 0.4;
 }
-
-.ctc1 {
-  width: 65%;
-  position: absolute;
-  top: 113rem;
-  left: 49.8%;
-  transform: translate(-50%, -50%);
+.img-sm-ban:hover{
+  opacity: 0.4;
 }
-
-.ctul1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.citem1 {
-  max-width: 88%;
-}
-
-.bn2 {
-  width: 65%;
-  /* height: 100rem; */
-  position: absolute;
-  top: 145rem;
-  left: 52%;
-  transform: translate(-50%, -50%);
-}
-
-.bitem1 {
-  max-width: 90.5%;
-}
-
-.pos {
-  position: absolute;
-  left: 6.8rem;
-  bottom: 12rem;
-  color: black;
-}
-
-.pos1 {
-  position: absolute;
-  left: 26rem;
-  bottom: 12rem;
-  color: black;
-}
-
-.pos2 {
-  position: absolute;
-  left: 47rem;
-  bottom: 12rem;
-  color: black;
-}
-
-.posb1 {
-  position: absolute;
-  left: 23rem;
-  bottom: 87rem;
-  color: black;
-}
-
-.pos3 {
-  position: absolute;
-  left: 14rem;
-  bottom: 19rem;
-  color: black;
-}
-
-.pos4 {
-  position: absolute;
-  left: 42rem;
-  bottom: 19rem;
-  color: black;
-}
-
-.posb2 {
-  position: absolute;
-  left: 24rem;
-  bottom: 9rem;
-  color: black;
-}
-
-.hide {
-  display: none;
-}
-
-.hv:hover+.hide {
+.imgcard:hover + .hide{
   display: block;
 }
-
-.hov:hover+.hv {
-  opacity: 0.6;
+.imgcard-2:hover + .hide{
+  display: block;
 }
-
-.hv {
-  opacity: 1;
+.img-sm-ban:hover + .hide{
+    display: block;
+}
+/* newsletter */
+.newsletter{
+  padding-bottom: 0;
+  margin-right: 5.25rem;
+  background-color:#c4a173;
+  height: 9rem;
+  max-width: 90.7%;
+}
+.newsletter h5{
+  padding-top: 0.188rem;
   cursor: pointer;
 }
 
-.hv:hover {
-  opacity: 0.6;
+.newsletter-c1 span{
+  margin-left: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
 }
-
-/* newsletter */
-.newsletter {
-  max-width: 59.2%;
-  height: 9rem;
-  background-color: #c4a173;
+.row-padns{
   position: relative;
-  top: 157rem;
-  left: 18.4rem;
+  margin-left: 10.5rem;
+  margin-right: 0;
+  margin-top: 3.938rem;
 }
-
-.ml {
-  max-width: 6%;
+.row-padnsf{
   position: relative;
-  left: 8rem;
-  top: 3rem;
+  padding-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 3.688rem;
+}
+.form{
+  height:100%;
+}
+.pad-rem{
+  padding-left: 0;
+  padding-right: 0;
+}
+.newsletter-c2{
+  float: left;
 }
 
-.newsletter input {
-  position: absolute;
-  left: 33rem;
-  bottom: 3.4rem;
+/*/////////////////////////////////////////////////////////////////mediaquery promo///////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 600px){
+
+
+
+
 }
 
-h5 {
-  position: relative;
-  left: 13rem;
-  font-size: 2rem;
-}
 
-.newsletter button {
-  position: absolute;
-  left: 46rem;
-  bottom: 3.4rem;
-}
 
+
+
+/*/////////////////////////////////////////////////////////////////mediaquery promo///////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////promo////////////////////////////////////////////////////////////////*/
 /* footer */
 .ftr {
   width: 100%;
   height: 25rem;
   background-color: black;
   position: relative;
-  top: 160rem;
+  top: 10rem;
 }
 
 .imgf {
@@ -452,5 +406,5 @@ h5 {
 .cr{
   position: absolute;
   top: 23rem;
-  left: 20rem;
+  left: 33rem;
 }
