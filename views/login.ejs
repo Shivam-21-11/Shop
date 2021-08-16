@@ -24,7 +24,7 @@
     <div class="frm">
       <div class="row">
         <div class="col-lg-6 col-md-12">
-          <form class="fom" action="/login" method="post">
+          <form class="form" action="/login" method="post">
             <label for="">EMAIL ADDRESS :</label>
             <br>
             <input class="form-control" type="email" name="EMAIL" value="">
@@ -33,7 +33,9 @@
             <br>
             <input class="form-control" type="password" name="" value="">
             <br>
-            <button class="btn btn-outline-dark btn-lg btnl" type="submit" name="">Login</button><a href="#">Forgot Password?</a>
+            <br>
+            
+            <button class="btn btn-outline-dark btn-lg btnl" type="submit" name="">Login</button><a class="aref" href="#">Forgot Password?</a>
           </form>
         </div>
         <div class="col-lg-6 col-md-12 ">
@@ -64,55 +66,9 @@
     </div>
   </div>
 </div>
-
+   <%- include("footer") -%>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
 </body>
-<footer>
-  <div class="ftr">
-    <div class="imgf">
-      <a href="/home"><img src="images/Versache1.jpg" alt="LOGO"></a>
 
-    </div>
-    <div class="social">
-      <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-      <a href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
-      <a href="#"><i class="fab fa-pinterest-square fa-2x"></i></a>
-
-    </div>
-    <div class="fus">
-      <h6>Follow Us</h6>
-    </div>
-
-    <div class="cat">
-      <h6>CATEGORIES</h6>
-      <ul>
-        <li><a href="/whats-new">WHAT'S NEW</a></li>
-        <li><a href="/women">WOMEN</a></li>
-        <li><a href="dresses">DRESSES</a></li>
-        <li><a href="/classic">CLASSIC</a></li>
-        <li><a href="/curve">CURVE</a></li>
-        <li><a href="/campaign">CAMPAIGN</a></li>
-      </ul>
-
-    </div>
-    <div class="inf">
-      <h6>Versache Traders</h6>
-      <ul>
-        <li><a href="#">Shipping & Returns</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Work With Us</a></li>
-        <li><a href="#">Gift Certificate</a></li>
-        <li><a href="#">Journal</a></li>
-      </ul>
-
-    </div>
-    <div class="cr">
-      <h5>©VERSACHE MUMBAI, MAHARASHTRA  ALL RIGHTS RESERVED  </h5>
-    </div>
-  </div>
-
-
-</footer>
 </html>

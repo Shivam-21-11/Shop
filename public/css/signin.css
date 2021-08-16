@@ -1,88 +1,39 @@
-html,
-body {
-  height: 100%;
+body{
+  margin-top: 12rem;
 }
 
-body {
-  position: relative;
-  display: flex;
-  align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: white;
-}
-.container{
-  padding-top: 4rem;
-}
-.title{
-  padding-top: 1rem;
-  padding-left: 1.5rem;
-}
 .frm{
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-
-}
-.frm label{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-.frm button{
-  margin-top: 1rem;
-}
-.fom{
-  padding-left: 7.313rem;
-  padding-top: 1.313rem;
-}
-.fom a{
-  padding-left: 1rem;
-  position: relative;
-  top: 0.5rem;
-  color: black;
-}
-.fom a:hover{
-  color:#4f4d4d;
+  margin-top: 6%;
+  margin-left: 3%;
 }
 
-.msg{
-  background-color: #e3e3e3;
-
-}
-.tnc{
-  padding-top: 1.5rem;
-  padding-left: 2.125rem;
-}
-.itml{
-  padding-left: 2.125rem;
-  padding-top: 0.375rem;
-}
-
-.lst{
-  padding-left: 1.688rem;
-}
-.btt{
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-
-    margin-bottom: 1.75rem;
-    margin-top: 0;
-
-}
-.btt:hover{
-  background-color: #4f4d4d;
-}
 .btnl{
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-  margin-left: 7.5rem;
+  padding-left: 15%;
+  padding-right: 15%;
+
 }
-.col-md-12{
-  padding-top: 1rem;
+.aref{
+  padding-left: 5%;
+  color: black;
+  text-decoration: none;
 }
+.aref:hover{
+  color:#787878;
+}
+
+.form label{
+  margin-bottom: 2%;
+}
+.msg{
+  background-color: #dbdbdb;
+  padding-left: 4%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////navbar////////////////////////////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////navbar////////////////////////////////////////////////////*/
 /*///////////////////exp////////////////////*/
 
@@ -204,7 +155,7 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
-  margin-bottom: 1.2rem;
+
   z-index: 1;
 }
 
@@ -228,6 +179,7 @@ body {
   width: 1.8rem;
 }
 
+/*///////////////////////////////////////////////////////////////////////navbar////////////////////////////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////navbar////////////////////////////////////////////////////*/
 
 /* /////////////////////////////////////////////////////footer////////////////////////////////////////////////////////////// */
