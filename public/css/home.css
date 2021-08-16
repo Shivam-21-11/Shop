@@ -251,55 +251,32 @@ body{
     display: block;
 }
 /* newsletter */
-.newsletter{
-  padding-bottom: 0;
-  margin-right: 5.25rem;
-  background-color:#c4a173;
-  height: 9rem;
-  max-width: 90.7%;
-}
-.newsletter h5{
-  padding-top: 0.188rem;
-  cursor: pointer;
-}
 
-.newsletter-c1 span{
-  margin-left: 1rem;
-  padding-bottom: 1rem;
-  font-size: 1.2rem;
+.newsletter{
+  background-color: #c4a173;
+  max-width: 90.2%;
+  max-height: 12rem;
 }
-.row-padns{
-  position: relative;
-  margin-left: 10.5rem;
-  margin-right: 0;
-  margin-top: 3.938rem;
-}
-.row-padnsf{
-  position: relative;
-  padding-bottom: 0;
+.rowp{
   margin-left: 0;
   margin-right: 0;
-  padding-top: 3.688rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
-.form{
-  height:100%;
+.newsletter span{
+  font-size: 1.8rem;
+  margin-left: 3%;
 }
-.pad-rem{
-  padding-left: 0;
-  padding-right: 0;
+.newsletter i{
+  margin-left: 27%;
 }
-.newsletter-c2{
-  float: left;
+.fom{
+  margin-left: 15%;
+  padding-top: 1%;
 }
-
 /*/////////////////////////////////////////////////////////////////mediaquery promo///////////////////////////////////////////////////////*/
 
-@media screen and (max-width: 600px){
 
-
-
-
-}
 
 
 
