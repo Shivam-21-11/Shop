@@ -219,25 +219,25 @@ body{
 
 }
 /*///////////////////////////////////////////form body//////////////////////////////////////////////////////////////////////////*/
+.form{
+  padding-left: 6%;
+  padding-top: 4%;
+}
+.form label{
+  margin-bottom: 2%;
+}
+.form input{
+  margin-bottom: 1%;
+}
 .wdt{
-  width:28.125rem;
+  width: 100%;
 }
-.pd{
-  padding-left: 13.875rem;
+.sbn button{
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 3%;
 }
-.btt{
-  width: 15rem;
-}
-.sbn{
-  padding-left: 33.75rem;
-  padding-top: 3.313rem;
-}
-.ipf{
-  padding-top: 4rem;
-}
-.row{
-  padding-bottom: 1.6rem;
-}
-label{
-  padding-bottom: 0.6rem;
+
+.sbn button:hover{
+  background-color: #616161;
 }
