@@ -130,6 +130,9 @@
   text-decoration: none;
 }
 
+.itme:hover{
+  color: #b5b5b5;
+}
 .header-brand {
   position: relative;
   top: 1rem;
