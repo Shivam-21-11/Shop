@@ -232,6 +232,7 @@ body{
 
 .hide{
   display:none;
+  color: black;
 }
 .imgcard:hover {
   opacity: 0.4;
@@ -245,12 +246,15 @@ body{
 }
 .imgcard:hover + .hide{
   display: block;
+
 }
 .imgcard-2:hover + .hide{
   display: block;
+
 }
 .img-sm-ban:hover + .hide{
     display: block;
+
 }
 /* newsletter */
 
