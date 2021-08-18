@@ -8,6 +8,10 @@
     <script type="text/javascript" src="script/hed.js">
 
     </script>
+    <script type="text/javascript" src="script/passValidate.js">
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/signup.css">
     <%- include("navbar") -%>
   </head>
@@ -18,7 +22,7 @@
         <h1>NEW ACCOUNT</h1>
       </div>
       <div class="">
-        <form class="form" action="index.html" method="post">
+        <form name="supform" class="form" action="/signup" method="post">
 
 
 
@@ -27,26 +31,26 @@
               <!-- signupdetailside1 -->
               <label for="">First Name :</label>
               <br>
-              <input class="form-control wdt" type="text" name="fname" value="" >
+              <input class="form-control wdt" type="text" name="fname" value="" required>
             </div>
             <div class="col-lg-6 col-md-12 col-md-12">
               <!-- signupdetailside1 -->
               <label for="">Last Name :</label>
               <br>
-              <input class="form-control wdt" type="text" name="lname" value="" >
+              <input class="form-control wdt" type="text" name="lname" value="" required>
             </div>
             </div>
 
               <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 ">
-                  <label for="">Email :</label>
+                  <label for="">Email :</label><span class="msg"> <%= ErrorMsg %> </span>
                   <br>
-                  <input class="form-control wdt" type="text" name="email" value="">
+                  <input class="form-control wdt" type="text" name="email" value="" required>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
                   <label for="">Password :</label>
                   <br>
-                  <input class="form-control wdt" type="password" name="pass" value="" >
+                  <input  class="form-control wdt" type="password" name="pass" value="" required oninput="form.cpass.pattern = escapeRegExp(this.value)" minlength="8">
                 </div>
               </div>
 
@@ -55,12 +59,12 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 ">
                   <label for="">Confirm Password :</label>
                   <br>
-                  <input class="form-control wdt" type="text" name="cpass" value="" >
+                  <input  class="form-control wdt" type="text" name="cpass" value="" required >
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
                   <label for="">Phone Number :</label>
                   <br>
-                  <input class="form-control wdt" type="number" name="phone" value="" >
+                  <input class="form-control wdt" type="text" name="phone" value="" required maxlength="10">
                 </div>
               </div>
 
@@ -70,12 +74,12 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 ">
                   <label for="">Address Line 1 :</label>
                   <br>
-                  <input class="form-control wdt" type="text" name="add1" value="" placeholder="">
+                  <input class="form-control wdt" type="text" name="add1" value="" placeholder="" required>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
                   <label for="">Address Line 2 :</label>
                   <br>
-                  <input class="form-control wdt" type="text" name="add2" value="" placeholder="">
+                  <input class="form-control wdt" type="text" name="add2" value="" placeholder="" required>
                 </div>
               </div>
 
@@ -84,20 +88,20 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 ">
                   <label for="">City :</label>
                   <br>
-                  <input class="form-control wdt" type="text" name="ct" value="" >
+                  <input class="form-control wdt" type="text" name="city" value="" required>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
                   <label for="">Country:</label>
                   <br>
                   <div class="dropdown">
-                    <select class="form-select" name="">
+                    <select id="country" class="form-select" name="country" required>
                         <option value="">COUNTRY</option>
-                      <option value="">INDIA</option>
-                      <option value="">USA</option>
-                      <option value="">AUSTRALIA</option>
-                      <option value="">CHINA</option>
+                      <option value="INDIA">INDIA</option>
+                      <option value="USA">USA</option>
+                      <option value="AUSTRALIA">AUSTRALIA</option>
+                      <option value="CHINA">CHINA</option>
                     </select>
-                
+
                   </div>
 
                 </div>
@@ -106,16 +110,16 @@
 
               <div class="row">
 
-                <div class="col-lg-6 col-md-12 col-sm-12 ">
+                <div class="col-lg-6 col-md-12 col-sm-12 " required>
                   <label for="">State:</label>
                   <br>
                   <div class="dropdown">
-                    <select class="form-select" name="">
+                    <select id="state" class="form-select" name="state" required>
                       <option value="">STATE</option>
-                      <option value="">MAHARASHTRA</option>
-                      <option value="">UTTAR PRADESH</option>
-                      <option value="">MP</option>
-                      <option value="">TELANGANA</option>
+                      <option value="MAHARASHTRA">MAHARASHTRA</option>
+                      <option value="UTTAR PRADESH">UTTAR PRADESH</option>
+                      <option value="MP">MP</option>
+                      <option value="TELANGANA">TELANGANA</option>
                     </select>
 
               </div>
@@ -124,7 +128,7 @@
                 <div class="col-lg-6 col-md-12 col-sm-12">
                   <label for="">Zip Code :</label>
                   <br>
-                  <input class="form-control wdt" type="number" name="zipc" value="" >
+                  <input class="form-control wdt" type="text" name="zipc" value="" maxlength="6" required>
                 </div>
               </div>
                 <div class="sbn">
