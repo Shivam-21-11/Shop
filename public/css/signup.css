@@ -136,9 +136,9 @@
 }
 .header-brand {
   position: relative;
-  top: 1rem;
-  left: 1.2rem;
-  max-width: 15rem;
+  top: 22%;
+  left: 6%;
+  max-width: 25%;
   cursor: pointer;
 }
 
