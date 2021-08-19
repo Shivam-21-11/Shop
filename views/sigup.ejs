@@ -13,6 +13,13 @@
     </script>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/signup.css">
+    <script type="text/javascript">
+      if(<%=ErrorMsg%>){
+        alert("Email already registered");
+      }else{
+        console.log("welcome")
+      }
+    </script>
     <%- include("navbar") -%>
   </head>
   <body>
@@ -43,7 +50,7 @@
 
               <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 ">
-                  <label for="">Email :</label><span class="msg"> <%= ErrorMsg %> </span>
+                  <label for="">Email :</label>
                   <br>
                   <input class="form-control wdt" type="text" name="email" value="" required>
                 </div>

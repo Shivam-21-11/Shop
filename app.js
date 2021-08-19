@@ -221,7 +221,7 @@ app.post("/signup",function(req,res){
       }else if (err) {
         cosole.log(err);
       }else{
-          res.render("sigup",{ErrorMsg:"*Email Already Exist"});
+          res.render("sigup",{ErrorMsg:"true"});
 
 
       }

@@ -201,6 +201,7 @@ body{
 .imglogo{
   padding-left: 28%;
   padding-top: 5%;
+  max-width: 65%;
 }
 .categories h6{
   color: white;
