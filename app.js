@@ -249,6 +249,12 @@ app.post('/mail',function(req,res){
   console.log(mail);
   res.redirect('/home');
 });
+
+
+app.get('/cart',(req,res)=> res.render('cart'));
+
+
+
 app.listen(process.env.PORT || 3000,function(){
   console.log("Listening at port 3000")
 });
